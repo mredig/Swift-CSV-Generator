@@ -10,7 +10,8 @@ Easy, straightforward csv generation.
 
 	import CSV_Generator
 	
-	let generator = CSVGenerator(with: ["foo", "bar", "wham", "bam"]) //rows must contain unique names to retain unique data
+	//rows must contain unique names to retain unique data
+	let generator = CSVGenerator(with: ["foo", "bar", "wham", "bam"])
 
 	let newRow = ["foo": "1", "bar":"2", "bam":"3", "extra": "unused"]
 	generator.appendRow(with: newRow)
