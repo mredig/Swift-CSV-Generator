@@ -10,6 +10,7 @@
 		335461F62221D3F700A5A498 /* CSV_Generator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335461EC2221D3F600A5A498 /* CSV_Generator.framework */; };
 		335461FB2221D3F700A5A498 /* CSV_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335461FA2221D3F700A5A498 /* CSV_GeneratorTests.swift */; };
 		335461FD2221D3F700A5A498 /* CSV_Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 335461EF2221D3F600A5A498 /* CSV_Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		335462092221D42800A5A498 /* CSV Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335462082221D42800A5A498 /* CSV Generator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		335461F52221D3F700A5A498 /* CSV GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSV GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		335461FA2221D3F700A5A498 /* CSV_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSV_GeneratorTests.swift; sourceTree = "<group>"; };
 		335461FC2221D3F700A5A498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335462082221D42800A5A498 /* CSV Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CSV Generator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				335461EF2221D3F600A5A498 /* CSV_Generator.h */,
 				335461F02221D3F700A5A498 /* Info.plist */,
+				335462082221D42800A5A498 /* CSV Generator.swift */,
 			);
 			path = "CSV Generator";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					335461EB2221D3F600A5A498 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					335461F42221D3F700A5A498 = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335462092221D42800A5A498 /* CSV Generator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +345,7 @@
 		335462012221D3F700A5A498 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -359,6 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.redeggproductions.CSV-Generator";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -366,6 +373,7 @@
 		335462022221D3F700A5A498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -392,6 +400,7 @@
 		335462042221D3F700A5A498 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = L5UZAT7KA9;
@@ -410,6 +419,7 @@
 		335462052221D3F700A5A498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = L5UZAT7KA9;
