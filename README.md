@@ -8,17 +8,18 @@ Easy, straightforward csv generation.
 	
 ### Usage
 
-	import CSV_Generator
-	
-	//rows must contain unique names to retain unique data
-	let generator = CSVGenerator(with: ["foo", "bar", "wham", "bam"])
+```swift
+import CSV_Generator
 
-	let newRow = ["foo": "1", "bar":"2", "bam":"3", "extra": "unused"]
-	generator.appendRow(with: newRow)
-	
-	let csvString = generator.generateCSV()
+//rows must contain unique names to retain unique data
+let generator = CSVGenerator(with: ["foo", "bar", "wham", "bam"])
 
-	//foo,bar,wham,bam
-	//1,2,,3
-	
+let newRow = ["foo": "1", "bar":"2", "bam":"3", "extra": "unused"]
+generator.appendRow(with: newRow)
+
+let csvString = generator.generateCSV()
+
+//foo,bar,wham,bam
+//1,2,,3
+```
 
