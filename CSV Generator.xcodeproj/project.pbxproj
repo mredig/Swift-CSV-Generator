@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		335461F62221D3F700A5A498 /* CSV Generator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335461EC2221D3F600A5A498 /* CSV Generator.framework */; };
+		335461F62221D3F700A5A498 /* CSV_Generator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335461EC2221D3F600A5A498 /* CSV_Generator.framework */; };
 		335461FB2221D3F700A5A498 /* CSV_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335461FA2221D3F700A5A498 /* CSV_GeneratorTests.swift */; };
 		335461FD2221D3F700A5A498 /* CSV_Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 335461EF2221D3F600A5A498 /* CSV_Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		335462092221D42800A5A498 /* CSV Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335462082221D42800A5A498 /* CSV Generator.swift */; };
-		3354621C222348F000A5A498 /* CSV Generator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33546213222348F000A5A498 /* CSV Generator.framework */; };
+		3354621C222348F000A5A498 /* CSV_Generator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33546213222348F000A5A498 /* CSV_Generator.framework */; };
 		33546223222348F000A5A498 /* CSV_Generator_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 33546215222348F000A5A498 /* CSV_Generator_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3354622B22234AA900A5A498 /* CSV Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335462082221D42800A5A498 /* CSV Generator.swift */; };
 /* End PBXBuildFile section */
@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		335461EC2221D3F600A5A498 /* CSV Generator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "CSV Generator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		335461EC2221D3F600A5A498 /* CSV_Generator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSV_Generator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		335461EF2221D3F600A5A498 /* CSV_Generator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSV_Generator.h; sourceTree = "<group>"; };
 		335461F02221D3F700A5A498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		335461F52221D3F700A5A498 /* CSV GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSV GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 		335462082221D42800A5A498 /* CSV Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CSV Generator.swift"; sourceTree = "<group>"; };
 		3354620A2221D67B00A5A498 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3354620B2221D84B00A5A498 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
-		33546213222348F000A5A498 /* CSV Generator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "CSV Generator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33546213222348F000A5A498 /* CSV_Generator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSV_Generator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33546215222348F000A5A498 /* CSV_Generator_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSV_Generator_iOS.h; sourceTree = "<group>"; };
 		33546216222348F000A5A498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3354621B222348F000A5A498 /* CSV Generator-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSV Generator-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335461F62221D3F700A5A498 /* CSV Generator.framework in Frameworks */,
+				335461F62221D3F700A5A498 /* CSV_Generator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3354621C222348F000A5A498 /* CSV Generator.framework in Frameworks */,
+				3354621C222348F000A5A498 /* CSV_Generator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +99,9 @@
 		335461ED2221D3F600A5A498 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				335461EC2221D3F600A5A498 /* CSV Generator.framework */,
+				335461EC2221D3F600A5A498 /* CSV_Generator.framework */,
 				335461F52221D3F700A5A498 /* CSV GeneratorTests.xctest */,
-				33546213222348F000A5A498 /* CSV Generator.framework */,
+				33546213222348F000A5A498 /* CSV_Generator.framework */,
 				3354621B222348F000A5A498 /* CSV Generator-iOSTests.xctest */,
 			);
 			name = Products;
@@ -179,7 +179,7 @@
 			);
 			name = "CSV Generator-Mac";
 			productName = "CSV Generator";
-			productReference = 335461EC2221D3F600A5A498 /* CSV Generator.framework */;
+			productReference = 335461EC2221D3F600A5A498 /* CSV_Generator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		335461F42221D3F700A5A498 /* CSV GeneratorTests */ = {
@@ -215,7 +215,7 @@
 			);
 			name = "CSV Generator-iOS";
 			productName = "CSV Generator-iOS";
-			productReference = 33546213222348F000A5A498 /* CSV Generator.framework */;
+			productReference = 33546213222348F000A5A498 /* CSV_Generator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3354621A222348F000A5A498 /* CSV Generator-iOSTests */ = {
@@ -503,7 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.redeggproductions.CSV-Generator";
 				PRODUCT_MODULE_NAME = CSV_Generator;
-				PRODUCT_NAME = "CSV Generator";
+				PRODUCT_NAME = CSV_Generator;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -532,7 +532,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.redeggproductions.CSV-Generator";
 				PRODUCT_MODULE_NAME = CSV_Generator;
-				PRODUCT_NAME = "CSV Generator";
+				PRODUCT_NAME = CSV_Generator;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 			};
@@ -596,7 +596,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.redeggproductions.CSV-Generator";
 				PRODUCT_MODULE_NAME = CSV_Generator;
-				PRODUCT_NAME = "CSV Generator";
+				PRODUCT_NAME = CSV_Generator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -624,7 +624,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.redeggproductions.CSV-Generator";
 				PRODUCT_MODULE_NAME = CSV_Generator;
-				PRODUCT_NAME = "CSV Generator";
+				PRODUCT_NAME = CSV_Generator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
