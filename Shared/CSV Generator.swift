@@ -39,7 +39,7 @@ public class CSVGenerator {
 	
 	- Parameter columnTitles: array of strings in order from left to right of column titles. Also establishes the number of columns for this instance
 	*/
-	init(with columnTitles: [String]) {
+	public init(with columnTitles: [String]) {
 		for (index, title) in columnTitles.enumerated() {
 			let column = CSVColumn(index: index, title: title)
 			columns.append(column)
