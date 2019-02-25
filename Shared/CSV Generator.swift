@@ -102,7 +102,7 @@ public class CSVGenerator {
 	
 	private func escapeCharacters(in value: String) -> String {
 		var value = value
-		if value.contains(separator.rawValue) {
+		if value.contains(separator.rawValue) || value.contains("\n") {
 			if value.contains("\"") {
 				value = value.replacingOccurrences(of: "\"", with: "\"\"")
 			}

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33546212222348F000A5A498"
-               BuildableName = "CSV Generator.framework"
+               BuildableName = "CSV_Generator.framework"
                BlueprintName = "CSV Generator-iOS"
                ReferencedContainer = "container:CSV Generator.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33546212222348F000A5A498"
-            BuildableName = "CSV Generator.framework"
+            BuildableName = "CSV_Generator.framework"
             BlueprintName = "CSV Generator-iOS"
             ReferencedContainer = "container:CSV Generator.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33546212222348F000A5A498"
-            BuildableName = "CSV Generator.framework"
+            BuildableName = "CSV_Generator.framework"
             BlueprintName = "CSV Generator-iOS"
             ReferencedContainer = "container:CSV Generator.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33546212222348F000A5A498"
-            BuildableName = "CSV Generator.framework"
+            BuildableName = "CSV_Generator.framework"
             BlueprintName = "CSV Generator-iOS"
             ReferencedContainer = "container:CSV Generator.xcodeproj">
          </BuildableReference>

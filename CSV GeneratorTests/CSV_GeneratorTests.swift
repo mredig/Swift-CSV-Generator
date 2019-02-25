@@ -45,5 +45,23 @@ foo,bar,wham,bam
 		let csv = generator.generateCSV()
 		XCTAssertTrue(intendedResult == csv)
 	}
+	
+	func testNewlineEscape() {
+		let intendedResult = """
+foo,bar
+"here is a ""line""
+here is \"\"\"\"another\"\"\"\", same cell",pasta
+macaroni and cheese,pizza!
+"""
+		let col1 = "foo"
+		let col2 = "bar"
+		let generator = CSVGenerator(with: [col1, col2])
+		
+		generator.appendRow(with: [col1: "here is a \"line\"\nhere is \"\"another\"\", same cell", col2: "pasta"])
+		generator.appendRow(with: [col1: "macaroni and cheese", col2: "pizza!"])
+
+		let csv = generator.generateCSV()
+		XCTAssertTrue(intendedResult == csv, csv)
+	}
 
 }
