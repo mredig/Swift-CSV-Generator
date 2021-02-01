@@ -6,6 +6,10 @@ Easy, straightforward csv generation.
 
 	github "mredig/Swift-CSV-Generator"
 	
+### SPM
+
+	https://github.com/mredig/Swift-CSV-Generator.git
+	
 ### Usage
 
 ```swift
