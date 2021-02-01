@@ -14,6 +14,7 @@
 		3354621C222348F000A5A498 /* CSV_Generator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33546213222348F000A5A498 /* CSV_Generator.framework */; };
 		33546223222348F000A5A498 /* CSV_Generator_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 33546215222348F000A5A498 /* CSV_Generator_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3354622B22234AA900A5A498 /* CSV Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335462082221D42800A5A498 /* CSV Generator.swift */; };
+		33C007BB25C7AF1C00F9EF54 /* CSV_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335461FA2221D3F700A5A498 /* CSV_GeneratorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 				335461EE2221D3F600A5A498 /* CSV Generator */,
 				33546214222348F000A5A498 /* CSV Generator-iOS */,
 				335461F92221D3F700A5A498 /* CSV GeneratorTests */,
+				33C007BA25C7AEFC00F9EF54 /* TestSource */,
 				335461ED2221D3F600A5A498 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,7 +121,6 @@
 		335461F92221D3F700A5A498 /* CSV GeneratorTests */ = {
 			isa = PBXGroup;
 			children = (
-				335461FA2221D3F700A5A498 /* CSV_GeneratorTests.swift */,
 				335461FC2221D3F700A5A498 /* Info.plist */,
 			);
 			path = "CSV GeneratorTests";
@@ -139,7 +140,17 @@
 			children = (
 				335462082221D42800A5A498 /* CSV Generator.swift */,
 			);
-			path = Shared;
+			name = Shared;
+			path = "Sources/CSV-Generator";
+			sourceTree = "<group>";
+		};
+		33C007BA25C7AEFC00F9EF54 /* TestSource */ = {
+			isa = PBXGroup;
+			children = (
+				335461FA2221D3F700A5A498 /* CSV_GeneratorTests.swift */,
+			);
+			name = TestSource;
+			path = "Tests/CSV-GeneratorTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33C007BB25C7AF1C00F9EF54 /* CSV_GeneratorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
